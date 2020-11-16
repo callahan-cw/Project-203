@@ -43,7 +43,7 @@ pipeline {
         }
         stage ('Test the Intrastructure'){
             steps{
-                echo "Testing if the Docker Swarm is ready or not, by checking Viz App on Grand Master with Public Ip Address: ${MASTER_INSTANCE_PUBLIC_IP}:8080"
+                echo "Testing if the Docker Swarm is ready or not, by checking Viz App on Grand Master with Public Ip Address: {MASTER_INSTANCE_PUBLIC_IP}:8080"
 
             }
 
