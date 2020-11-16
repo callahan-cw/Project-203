@@ -50,7 +50,7 @@ pipeline {
         }
         stage ('Deploy the App on Docker Swarm'){
             steps{
-                echo "Cloning and Deploying App on Swarm using Grand Master with Instance Id: $MASTER_INSTANCE_ID"
+                echo "Cloning and Deploying App on Swarm using Grand Master with Instance Id: MASTER_INSTANCE_ID"
 
             }
 
